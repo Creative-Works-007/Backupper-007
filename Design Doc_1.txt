@@ -1,0 +1,24 @@
+Impl Requirements:
+  -- Usage of API's for G-Drive and others(Extendible to iCloud...)
+  -- Local Storage for the following:(Basically Forms the MODEL)
+     -- Files being backked up and to where
+     -- Scheduling info
+     -- Authentication details of the user for drives(NEED TO BE an ENCRYPTED STORAGE)
+     -- Any UI Specs
+  -- Encrypt the files being backed up(Extendible design)
+  
+  Controller:
+    -- Get the data fromt he storage
+    -- Be able to:
+       -- Sync files to Network FS, G-Drive by using appropriate API's
+       -- Pass feedback to View(JSON)
+       -- Error Handling
+       
+  View:
+    -- Updation based on JSON info.
+       
+  Technologies:
+    -- HTML & CSS(Bootstrap with LESS)
+    -- Javascript(jQuery + NodeJS)
+  
+
