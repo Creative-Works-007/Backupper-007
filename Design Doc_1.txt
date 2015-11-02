@@ -8,11 +8,12 @@ Impl Requirements:
   -- Encrypt the files being backed up(Extendible design)
   
   Controller:
-    -- Get the data fromt he storage
+    -- Get the data from the storage
     -- Be able to:
        -- Sync files to Network FS, G-Drive by using appropriate API's
        -- Pass feedback to View(JSON)
        -- Error Handling
+    -- Should have an opensource cmd-line tool for backing up files or build our own(SOmething which is immune to network disturbances)
        
   View:
     -- Updation based on JSON info.
